@@ -39,7 +39,7 @@ export function CitySearch() {
     });
 
     setOpen(false);
-    navigate(`/city/${name}?lat=${lat}&lon=${lon}`);
+    navigate(`/WeatherApp/city/${name}?lat=${lat}&lon=${lon}`);
   };
 
   return (

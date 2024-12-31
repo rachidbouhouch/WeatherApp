@@ -25,8 +25,8 @@ function App() {
         <ThemeProvider defaultTheme="dark">
           <Layout>
             <Routes>
-              <Route path="WeatherApp/" element={<WeatherDashboard />} />
-              <Route path="WeatherApp/city/:cityName" element={<CityPage />} />
+              <Route path="/WeatherApp/" element={<WeatherDashboard />} />
+              <Route path="/WeatherApp/city/:cityName" element={<CityPage />} />
             </Routes>
           </Layout>
           <Toaster richColors />
